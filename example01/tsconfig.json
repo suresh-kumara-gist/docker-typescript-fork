@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "noEmit": true,
+    "checkJs": true,
+  },
+  "files": [
+    "some-code.js",
+  ]
+}
