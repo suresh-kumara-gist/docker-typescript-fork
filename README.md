@@ -8,8 +8,14 @@ For example, if you are using the approach described in [Using Typescript withou
       -v "$(pwd)"/example01:/code \
       dcycle/typescript:1 --noEmit --checkJs .
 
-
 See [this project on the Docker Hub](https://hub.docker.com/r/dcycle/typescript/).
+
+Ignoring the next line
+-----
+
+To ignore a false positive use:
+
+    // @ts-expect-error
 
 More resources
 -----
